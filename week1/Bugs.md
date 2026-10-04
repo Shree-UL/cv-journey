@@ -1,0 +1,3 @@
+- Ran an unsaved Untitled file, so Python couldn't find it. Save with Ctrl+S first.
+- PowerShell blocked conda activate. Fix: Set-ExecutionPolicy -Scope CurrentUser RemoteSigned.
+- git push failed because my branch was master and GitHub uses main. Fix: git branch -M main.
